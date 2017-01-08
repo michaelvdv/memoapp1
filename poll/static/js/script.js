@@ -21,6 +21,10 @@ $(document).ready(function(){
     location.reload(); // brute way, maybe try to find a better way
 });
 
+  $('#sub_but').click(functoin(){
+    location.reload();
+  });
+
 
 
 /*$("a.like").click(function(){
