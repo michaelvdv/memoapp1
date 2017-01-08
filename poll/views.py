@@ -17,7 +17,6 @@ def poll_list(request):
             return render(request, 'poll/poll_list.html',{'polls':polls,'form':form})
     else:
         form = QuestionForm()
-        return render(request, 'poll/poll_list.html',{'polls':polls,'form':form})
     return render(request, 'poll/poll_list.html',{'polls':polls,'form':form})
 
 def like_category(request):
