@@ -1,0 +1,16 @@
+nav{
+  position: fixed;
+  z-index: 1000;
+}
+
+#welcome{
+  padding-top: 50px
+}
+
+#index-banner{
+  background-color: #edeff4;
+}
+
+#try{
+  color: #ff5722
+}
